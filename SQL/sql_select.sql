@@ -1,0 +1,11 @@
+SELECT * FROM lfschool.std_details;
+select distinct gen from std_details;
+select id,name from std_details where id=5 and name='anu';
+select id,name from std_details where id=1 or name='anu';
+select * from std_details where name like '%y';
+select * from std_details where name like "a%";
+select * from std_details where name like '__s%';
+select * from std_details where name not in("ajay","amal");
+select * from std_details where name  in("ajay","amal");
+select * from std_details where id between 2 and 5;
+select gen as gender from std_details;
